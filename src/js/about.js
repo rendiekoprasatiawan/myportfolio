@@ -8,8 +8,11 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 const AboutMe = () => {
   const [state] = React.useState({
     subHeading: "Introduction",
-    text:
-      "Hello! Welcome to my Website. \n \n I am a bachelor degree in computer science at the University of Lampung. I started my career before I earned my bachelor's degree in the field of Computer Science at University of Lampung. Looking beyond the research within Computer Science I found that web programming and mobile programming is very interesting and so challenging. Then I decided to pursuit the most advanced method out there; Web Programming and Mobile Programming. I also like to learn and keep myself regularly informed of news, especially in the technological field. \n \n Tap on the links below to connect with me on social media. Continue on this website to learn more about me.",
+    text1: "Hello! Welcome to my Website.",
+    text2:
+      "I am a bachelor degree in computer science at the University of Lampung. I started my career before I earned my bachelor's degree in the field of Computer Science at University of Lampung. Looking beyond the research within Computer Science I found that web programming and mobile programming is very interesting and so challenging. Then I decided to pursuit the most advanced method out there; Web Programming and Mobile Programming. I also like to learn and keep myself regularly informed of news, especially in the technological field.",
+    text3:
+      "Tap on the links below to connect with me on social media. Continue on this website to learn more about me.",
   });
 
   return (
@@ -24,7 +27,13 @@ const AboutMe = () => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <p className="new-line text-dark text-justify animate__animated animate__fadeInDown animate__delay-2s">
-              {state.text}
+              {state.text1}
+            </p>
+            <p className="new-line text-dark text-justify animate__animated animate__fadeInDown animate__delay-2s">
+              {state.text2}
+            </p>
+            <p className="new-line text-dark text-justify animate__animated animate__fadeInDown animate__delay-2s">
+              {state.text3}
             </p>
             <ul className="social animate__animated animate__fadeInDown animate__delay-3s">
               <li>

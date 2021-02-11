@@ -130,25 +130,9 @@ html {
   }
 }
 
-/*? -- Toast -- */
-/* #wrapper .toast {
-  position: fixed;
-  left: 10px;
-  bottom: 10px;
-  z-index: 100;
-  -webkit-box-shadow: 0 80px 100px -24px rgba(0, 0, 0, 0.45);
-  box-shadow: 0 80px 100px -24px rgba(0, 0, 0, 0.45);
-}
-
-#wrapper .toast-header {
-  background-color: #191c28;
-  color: white;
-  border-bottom: none;
-} */
-
 /*? -- Socials -- */
 #wrapper .socAnimate {
-  padding-bottom: 237.5px;
+  padding-bottom: 188px;
 }
 
 #wrapper .socials {
@@ -201,7 +185,7 @@ html {
 #about {
   background-color: var(--main-bg) !important;
   line-height: 2.6;
-  padding-bottom: 46px;
+  padding-bottom: 44.7px;
 }
 
 #about .heading1 {
@@ -226,6 +210,10 @@ html {
   /* padding-top: 51.5px; */
 }
 
+#about .about p {
+  margin-bottom: 29px;
+}
+
 #about .new-line {
   white-space: pre-line;
   font-size: 1.23rem;
@@ -234,8 +222,6 @@ html {
 
 #about ul {
   list-style-type: none;
-  /* harusnya gak ada */
-  padding-top: 25px;
 }
 
 #about li {
@@ -256,7 +242,7 @@ html {
 /*? -- Education -- */
 #education {
   background-color: var(--main-bg);
-  padding-bottom: 40px;
+  padding-bottom: 15.7px;
 }
 
 #education .heading1 {
@@ -269,9 +255,8 @@ html {
   font-size: 1.15rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
-  box-shadow: 0 0.5rem 0.5rem rgba(151, 151, 151, 0.1);
-  /* margin-bottom: 40px; */
-  margin-bottom: 70px;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 58px;
 }
 
 #education h1 {
@@ -300,6 +285,7 @@ html {
   color: #7e8bc0;
   font-weight: 700;
   font-size: 19px;
+  font-family: "Poppins";
 }
 
 #education .date {
@@ -307,20 +293,22 @@ html {
   font-weight: 400;
   margin-top: 50px;
   margin-bottom: 50px;
-  font-size: 18px;
+  font-size: 17px;
+  font-family: "Poppins";
 }
 
 #education .description {
   font-weight: 200;
   text-align: justify;
-  font-size: 16px;
+  font-size: 15.5px;
+  font-family: "Poppins";
   color: black;
 }
 
 /*? -- Skills --  */
 #skills {
   background-color: var(--main-bg) !important;
-  padding-bottom: 33.5px;
+  padding-bottom: 23.7px;
 }
 
 #skills .heading1 {
@@ -337,11 +325,11 @@ html {
   font-size: 1.15rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
-  box-shadow: 0 0.5rem 0.5rem rgba(151, 151, 151, 0.1);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 #skills .marSkill {
-  padding-top: 33.5px;
+  padding-top: 24.7px;
 }
 
 #skills .card {
@@ -397,6 +385,7 @@ html {
   background-color: white;
   border-radius: 10px;
   opacity: 0.7;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 #projects .padProjects {
@@ -472,12 +461,6 @@ small {
     overflow-x: hidden !important;
   }
 
-  /* #wrapper .toast {
-    left: 0px;
-    bottom: 0px;
-    margin: 5px;
-  } */
-
   /* wrapper */
   #wrapper .navbar a {
     font-size: 16px;
@@ -520,16 +503,24 @@ small {
 
   /* About */
   #about {
-    line-height: 1.5;
+    line-height: 2;
     padding-bottom: 28px;
+  }
+
+  #about .heading1 h1 {
+    font-size: 28px;
   }
 
   #about .new-line {
     font-size: 1rem;
   }
 
-  #about ul {
-    padding-top: 11px;
+  #about .about {
+    padding-top: 2px;
+  }
+
+  #about .about p {
+    margin-bottom: 25px;
   }
 
   #about li a {
@@ -538,11 +529,15 @@ small {
 
   /* education */
   #education {
-    padding-bottom: 0px;
+    padding-bottom: 3px;
+  }
+
+  #education .heading1 h1 {
+    font-size: 28px;
   }
 
   #education .container {
-    margin-bottom: 40px;
+    margin-bottom: 28px;
   }
 
   #education .title {
@@ -560,7 +555,7 @@ small {
   }
 
   #education li {
-    padding-bottom: 20px;
+    padding-bottom: 14px;
   }
 
   /* Skills */
@@ -568,8 +563,13 @@ small {
     padding-bottom: 0px;
   }
 
+  #skills .heading1 h1 {
+    font-size: 28px;
+  }
+
   #skills .marSkill {
-    padding-top: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
   }
 
   #skills .card-body .card-title {
@@ -585,9 +585,13 @@ small {
   }
 
   /* projects */
+  #projects .heading1 h1 {
+    font-size: 28px;
+  }
+
   #projects .padProjects {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 13.4px;
+    padding-bottom: 13.8px;
   }
 
   /* Footer */
