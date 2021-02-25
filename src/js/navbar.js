@@ -173,7 +173,7 @@ const Navbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="icon-social"
-                    href="https://www.linkedin.com/checkpoint/challengesV2/AQFFg9fohxJBTAAAAXd7rn7zDuPOcfShYpZgU3plcZW5jKhEd5dT_xD33uFdSo4gE262B0K6129QtgoDTZ8qQyXBwZWjFo33Uw"
+                    href="https://www.linkedin.com/in/rendiekoprasatiawan/"
                   >
                     <FontAwesomeIcon
                       icon={faLinkedin}
