@@ -22,11 +22,12 @@ const Projects = () => {
             <div className="card">
               <img src={kpu} className="card-img-top" alt="frontEnd" />
               <div className="card-body">
-                <h5 className="card-title">Manajemen Surat</h5>
+                <h5 className="card-title">Mail Management</h5>
                 <p className="card-text">
-                  Saya membuat Sistem Informasi Manajamen Surat Komisi Pemilihan
-                  Umum Provinsi Lampung menggunakan HMTL5, CSS3, Javascript,
-                  Bootstrap, jQuery, PHP, Laravel dll.
+                  I was create Incoming and Outgoing Mail Management Information
+                  System in the Lampung Provincial General Election Commission
+                  using HMTL5, CSS3, Javascript, Bootstrap, jQuery, PHP, Laravel
+                  etc.
                 </p>
               </div>
             </div>
@@ -36,11 +37,12 @@ const Projects = () => {
             <div className="card">
               <img src={siberkad} className="card-img-top" alt="frontEnd" />
               <div className="card-body">
-                <h5 className="card-title">Pemberkasan dan Akademik</h5>
+                <h5 className="card-title">Lecture Filing</h5>
                 <p className="card-text">
-                  Saya mengembangkan fitur bahan ajar pada Sistem Informasi
-                  Pemberkasan dan Akademik Ilkom Unila menggunakan HMTL5, CSS3,
-                  Javascript, Bootstrap, PHP, Laravel dll.
+                  I was create Teaching Materials Creation Feature in The Form
+                  of Handouts on Web-Based Lecture Filing Information System
+                  with Laravel Framework using HMTL5, CSS3, Javascript,
+                  Bootstrap, PHP, Laravel etc.
                 </p>
               </div>
             </div>
@@ -51,9 +53,9 @@ const Projects = () => {
               <img src={portfolio} className="card-img-top" alt="frontEnd" />
               <div className="card-body">
                 <h5 className="card-title">Portfolio v1, v2, v3</h5>
-                <p className="card-text">
-                  Saya membuat Website Portfolio dengan menggunakan HMTL5, CSS3,
-                  Javascript, Bootstrap dan terakhir menggunakan React JS.
+                <p className="card-text pb-5">
+                  I was create a portfolio website using HMTL5, CSS3,
+                  Javascript, Bootstrap and the last one using the React JS.
                 </p>
               </div>
             </div>
