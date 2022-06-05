@@ -35,22 +35,10 @@ const Skills = () => {
                 </div>
                 <div className="card-text text-center">
                   <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
-                    Java
-                  </span>
-                  <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
                     Python
                   </span>
                   <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
-                    C
-                  </span>
-                  <span className="badge badge-pill badge-dark py-2 my-2 mr-2">
-                    C++
-                  </span>
-                  <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
                     Javascript
-                  </span>
-                  <span className="badge badge-pill badge-dark py-2 ml-2 my-1 mr-2">
-                    TypeScript
                   </span>
                   <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
                     PHP
@@ -60,7 +48,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 py-2 animate__animated animate__fadeInDown animate__delay-3s">
+          <div className="col-lg-4 py-2 animate__animated animate__fadeInDown animate__delay-2s">
             <div className="card h-100 skills-box">
               <div className="icon-bg-web text-center py-1">
                 <FontAwesomeIcon icon={faLaptopCode} size="2x" />
@@ -89,20 +77,14 @@ const Skills = () => {
                     REST API
                   </span>
                   <span className="badge badge-pill badge-dark py-2 ml-2 my-1 mr-2">
-                    ExpressJS
-                  </span>
-                  <span className="badge badge-pill badge-dark py-2 ml-2 my-1 mr-2">
                     Laravel
-                  </span>
-                  <span className="badge badge-pill badge-dark py-2 ml-2 my-1 mr-2">
-                    CI
                   </span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-4 py-2 animate__animated animate__fadeInDown animate__delay-4s">
+          <div className="col-lg-4 py-2 animate__animated animate__fadeInDown animate__delay-2s">
             <div className="card h-100 skills-box">
               <div className="icon-bg-data text-center py-1">
                 <FontAwesomeIcon icon={faDatabase} size="2x" />
@@ -127,7 +109,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 py-2 animate__animated animate__fadeInDown animate__delay-5s">
+          <div className="col-lg-4 py-2 animate__animated animate__fadeInDown animate__delay-2s">
             <div className="card h-100 skills-box">
               <div className="icon-bg-tools text-center py-1">
                 <FontAwesomeIcon icon={faToolbox} size="2x" />
@@ -144,9 +126,6 @@ const Skills = () => {
                   <span className="badge badge-pill badge-dark py-2 my-2 mr-2">
                     Adobe Audition
                   </span>
-                  <span className="badge badge-pill badge-dark py-2 ml-2 my-1 mr-2">
-                    Adobe AE
-                  </span>
                   <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
                     Adobe XD
                   </span>
@@ -160,9 +139,6 @@ const Skills = () => {
                     Github
                   </span>
                   <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
-                    Android Studio
-                  </span>
-                  <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
                     Git Bash
                   </span>
                   <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
@@ -173,7 +149,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 py-2 animate__animated animate__fadeInDown animate__delay-5s">
+          <div className="col-lg-4 py-2 animate__animated animate__fadeInDown animate__delay-2s">
             <div className="card h-100 skills-box">
               <div className="icon-bg-os text-center py-1">
                 <FontAwesomeIcon icon={faTools} size="2x" />
@@ -185,14 +161,14 @@ const Skills = () => {
                     Windows
                   </span>
                   <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
-                    Linux (Kali Linux)
+                    Linux (Ubuntu)
                   </span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="col-lg-4 py-2 animate__animated animate__fadeInDown animate__delay-5s">
+          <div className="col-lg-4 py-2 animate__animated animate__fadeInDown animate__delay-2s">
             <div className="card h-100 skills-box">
               <div className="icon-bg-languages text-center py-1">
                 <FontAwesomeIcon icon={faLanguage} size="2x" />
@@ -201,22 +177,13 @@ const Skills = () => {
                 <div className="card-title text-center">Languages</div>
                 <div className="card-text text-center">
                   <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
-                    English : Pre-advanced
+                    English : Limited working proficiency
                   </span>
                   <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
-                    Malaysia : Advanced
+                    Malaysia : Limited working proficiency
                   </span>
                   <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
-                    Indonesia : Native
-                  </span>
-                  <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
-                    Palembang : Native
-                  </span>
-                  <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
-                    Ogan : Native
-                  </span>
-                  <span className="badge badge-pill badge-dark py-2 my-2 ml-2 mr-2">
-                    Kalimantan : Upper Intermediate
+                    Indonesia : Native or bilingual proficiency
                   </span>
                 </div>
               </div>

@@ -5,7 +5,7 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <div id="footer">
-      <div className="container animate__animated animate__fadeInDown animate__delay-5s">
+      <div className="container animate__animated animate__fadeInDown animate__delay-2s">
         <div className="row">
           <div className="col-lg p-lg-0">
             <ul className="list-unstyled">
@@ -73,14 +73,15 @@ const Footer = () => {
                 <div className="row">
                   <div className="col-10 pr-0">
                     <input
-                      className="form-control"
+                      className="form-control btn-dark"
                       type="email"
+                      disabled
                       placeholder="rendiekoprasatiawan99@gmail.com"
                     ></input>
                   </div>
                   <a
                     href="mailto:rendiekoprasatiawan99@gmail.com"
-                    className="btn btn-primary btn-join"
+                    className="btn btn-light btn-join text-black-50"
                   >
                     Me!
                   </a>

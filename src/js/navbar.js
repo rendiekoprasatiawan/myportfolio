@@ -95,27 +95,25 @@ const Navbar = () => {
       </div>
       <div className="col-12 text-center mt-2">
         <div className="text-center">
-          <p className="name animate__animated animate__fadeInDown animate__delay-2s">
+          <p className="name animate__animated animate__fadeInDown animate__delay-1s">
             I am Rendi Eko Prasatiawan.
           </p>
         </div>
       </div>
       <div className="col-12 text-center mt-2">
         <div className="text-center">
-          <p className="profession animate__animated animate__fadeInDown animate__delay-3s">
+          <p className="profession animate__animated animate__fadeInDown animate__delay-1s">
             <Typed
               className="typed-text"
               strings={[
                 "Leadership",
                 "Content Researcher",
-                "Web Designer",
-                "Photo Editor",
-                "Video Editor",
-                "Blogger",
+                "Quality Assurance",
+                "System Administrator",
                 "Front-End Web Developer",
                 "Back-End Web Developer",
                 "Full Stack Web Developer",
-                "Mobile Programmer",
+                "IT Support",
               ]}
               typeSpeed={40}
               backSpeed={60}
@@ -127,7 +125,7 @@ const Navbar = () => {
       <div className="col-12 text-center mt-2 socAnimate">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-12 col-md-8 text-center mt-4 socials animate__animated animate__fadeInDown animate__delay-4s">
+            <div className="col-12 col-md-8 text-center mt-4 socials animate__animated animate__fadeInDown animate__delay-1s">
               <div className="row my-5">
                 <div className="col-4 col-lg-2 mt-5 mb-lg-3">
                   <a

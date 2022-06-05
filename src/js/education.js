@@ -16,33 +16,32 @@ const Education = () => {
         <div className="col-10 col-md-10 col-lg-6 mt-3 resume-block ">
           <ul>
             <li className="animate__animated animate__fadeInDown animate__delay-2s">
-              <h6 className="mt-2 title">UNIVERSITAS LAMPUNG</h6>
-              <span className="mt-2 date"> Since 2021</span>
+              <h6 className="mt-2 title">UNIVERSITY OF LAMPUNG</h6>
+              <span className="mt-2 date"> Graduated</span>
               <p className="mt-2 description">
-                I graduated from college with a bachelor degree in computer
-                science since 2021.
+                I was graduated from the University of Lampung with a bachelor's
+                degree.
               </p>
             </li>
-            <li className="animate__animated animate__fadeInDown animate__delay-3s">
+            <li className="animate__animated animate__fadeInDown animate__delay-2s">
               <h6 className="mt-2 title">SMAN 1 OKU</h6>
-              <span className="mt-2 date"> Since 2016</span>
+              <span className="mt-2 date"> Graduated</span>
               <p className="mt-2 description">
-                I graduated from high school in SMA Negeri 1 OKU since 2016.
+                I was graduated from high school at SMA Negeri 1 OKU.
               </p>
             </li>
-            <li className="animate__animated animate__fadeInDown animate__delay-4s">
+            <li className="animate__animated animate__fadeInDown animate__delay-2s">
               <h6 className="mt-2 title">SMPN 21 OKU</h6>
-              <span className="mt-2 date"> Since 2013</span>
+              <span className="mt-2 date"> Graduated</span>
               <p className="mt-2 description">
-                I graduated from middle school in SMP Negeri 28 OKU since 2013.
+                I was graduated from middle school at SMP Negeri 28 OKU.
               </p>
             </li>
-            <li className="animate__animated animate__fadeInDown animate__delay-5s">
+            <li className="animate__animated animate__fadeInDown animate__delay-2s">
               <h6 className="mt-2 title">SDN 58 OKU</h6>
-              <span className="mt-2 date"> Since 2010</span>
+              <span className="mt-2 date"> Graduated</span>
               <p className="mt-2 description">
-                I graduated from elementary school in SD Negeri 58 OKU since
-                2010.
+                I was graduated from elementary school at SD Negeri 58 OKU.
               </p>
             </li>
           </ul>

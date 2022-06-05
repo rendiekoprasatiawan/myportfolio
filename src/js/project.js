@@ -32,7 +32,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-4 mb-4 animate__animated animate__fadeInDown animate__delay-3s">
+          <div className="col-12 col-md-6 col-lg-4 mb-4 animate__animated animate__fadeInDown animate__delay-2s">
             <div className="card">
               <img src={siberkad} className="card-img-top" alt="frontEnd" />
               <div className="card-body">
@@ -46,14 +46,14 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="col-12 col-md-6 col-lg-4 mb-4 animate__animated animate__fadeInDown animate__delay-4s">
+          <div className="col-12 col-md-6 col-lg-4 mb-4 animate__animated animate__fadeInDown animate__delay-2s">
             <div className="card">
               <img src={portfolio} className="card-img-top" alt="frontEnd" />
               <div className="card-body">
                 <h5 className="card-title">Portfolio v1, v2, v3</h5>
                 <p className="card-text">
-                  Saya membuat Website Portfolio dengan hanya menggunakan HMTL5,
-                  CSS3, Javascript, Bootstrap dan terakhir menggunakan React.
+                  Saya membuat Website Portfolio dengan menggunakan HMTL5, CSS3,
+                  Javascript, Bootstrap dan terakhir menggunakan React JS.
                 </p>
               </div>
             </div>
